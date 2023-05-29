@@ -231,7 +231,7 @@
   </template>
   
   <script>
-  import myUpload from "/home/dell/vue_video_pj/node_modules/vue-image-crop-upload/upload-2.vue";
+  import myUpload from "vue-image-crop-upload";
   import VideoService from "@/services/VideoService";
   import { mapGetters } from 'vuex'
   import HashTagService from '@/services/HashTagService'
